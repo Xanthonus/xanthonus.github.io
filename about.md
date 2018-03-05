@@ -10,7 +10,7 @@ I am a cyber researcher in the NOVA area. My interests span across multiple comp
 
 ### Degrees
 
-B.S. Information Studies
+B.S. Information Studies  
 M.S. Cybersecurity: Computer Security Fundamentals 
 
 ### Certifications
