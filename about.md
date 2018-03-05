@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+@Xanthonus
 
-### More Information
+I am a cyber researcher in the NOVA area. My interests span across multiple computer security topics however, Im partial to program analysis and vulnerability research.  
 
-A place to include any other types of information that you'd like to include about yourself.
+### Degrees
 
-### Contact me
+B.S. Information Studies
+M.S. Cybersecurity: Computer Security Fundamentals 
 
-[email@domain.com](mailto:email@domain.com)
+### Certifications
+
+Comptia Security+
+
