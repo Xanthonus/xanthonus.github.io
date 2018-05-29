@@ -17,7 +17,7 @@ Comptia Security+
 
 ### CTF
 
-Current Solo: [dirtymikeandtheboyz](https://ctftime.org/team/58884)
-Alumni Team: [WCSC](https://ctftime.org/team/315)
-Previous Member: [BORG](https://ctftime.org/team/23278)
+Current Solo: [dirtymikeandtheboyz](https://ctftime.org/team/58884)  
+Alumni Team: [WCSC](https://ctftime.org/team/315)  
+Previous Member: [BORG](https://ctftime.org/team/23278)  
 
