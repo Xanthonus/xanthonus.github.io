@@ -8,7 +8,7 @@ I am a cybersecurity researcher located in Seattle. My interests span across mul
 
 ### Degrees
 
-**University of South Florida**
+**University of South Florida**\
 B.S. Information Studies (2015)  
 M.S. Cybersecurity: Computer Security Fundamentals CSE (2017) 
 
