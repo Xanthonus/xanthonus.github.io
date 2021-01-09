@@ -4,20 +4,18 @@ title: About
 permalink: /about/
 ---
 
-I am a cyber researcher in the NOVA area. My interests span across multiple computer security topics although, most of my interests are in program analysis and vulnerability research.  
+I am a cybersecurity researcher located in Seattle. My interests span across multiple computer security topics and I have worked with many different technologies throughout my career. My research interests are in automated program analysis, program synthesis, and vulnerability discovery.  
 
 ### Degrees
 
-B.S. Information Studies  
-M.S. Cybersecurity: Computer Security Fundamentals 
+**University of South Florida**
+B.S. Information Studies (2015)  
+M.S. Cybersecurity: Computer Security Fundamentals CSE (2017) 
 
 ### Certifications
 
-Comptia Security+
+Comptia Security+ (expired)
 
-### CTF
+### CTF  
 
-Current Solo: [dirtymikeandtheboyz](https://ctftime.org/team/58884)  
 Alumni Team: [WCSC](https://ctftime.org/team/315)  
-Previous Member: [BORG](https://ctftime.org/team/23278)  
-
