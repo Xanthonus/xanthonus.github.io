@@ -2,7 +2,7 @@
 
 ## What Changes Have I Made?
 
-## Original READMe from HTLM5UP
+## Original README from HTLM5UP
 
 Read Only by HTML5 UP
 html5up.net | @ajlkn

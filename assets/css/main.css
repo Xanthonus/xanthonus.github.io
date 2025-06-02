@@ -2502,7 +2502,7 @@ ul.feature-icons li:before {
 }
 
 ul.feature-icons li:before {
-    background: #1a62ed;
+    background: #00d4aa;
     border-radius: 100%;
     color: #ffffff;
     display: block;
@@ -2810,7 +2810,7 @@ input[type="button"]:disabled,
     -ms-justify-content: space-between;
     justify-content: space-between;
     background: #1a62ed;
-    color: #d2f2e9;
+    color: #e0e0e0;
     height: 100%;
     overflow-y: auto;
     position: fixed;
@@ -2839,11 +2839,11 @@ input[type="button"]:disabled,
 }
 
 #header header p {
-    color: #b7eadc;
+    color: #c0c0c0;
 }
 
 #header a {
-    color: #d2f2e9;
+    color: #e0e0e0;
 }
 
 #header a:hover {
@@ -2870,7 +2870,7 @@ input[type="button"]:disabled,
 }
 
 #header > header p {
-    color: #d2f2e9;
+    color: #e0e0e0;
     font-style: italic;
     margin: 1em 0 0 0;
 }
@@ -2891,7 +2891,7 @@ input[type="button"]:disabled,
 }
 
 #header > footer .icons li a {
-    color: #b7eadc;
+    color: #c0c0c0;
 }
 
 #header > nav {
@@ -2908,7 +2908,7 @@ input[type="button"]:disabled,
 }
 
 #header > nav ul li {
-    border-top: solid 2px #5ccfb1;
+    border-top: solid 2px #00d4aa;
     display: block;
     padding: 0;
 }
@@ -2925,9 +2925,13 @@ input[type="button"]:disabled,
     text-decoration: none;
 }
 
+#header > nav ul li a:hover {
+    color: #00d4aa !important;
+}
+
 #header > nav ul li a.active {
     background: #1a1a1a;
-    color: #1a62ed !important;
+    color: #00d4aa !important;
 }
 
 #header > nav ul li:first-child {

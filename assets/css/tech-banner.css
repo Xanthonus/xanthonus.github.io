@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chess-banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #2a2a2a 100%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+}
+
+.circuit-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background-image:
+        radial-gradient(circle at 20% 80%, #1a62ed 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, #666666 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, #1a62ed 0%, transparent 50%);
+    animation: pulse 4s ease-in-out infinite;
+}
+
+.grid-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+        linear-gradient(rgba(26, 98, 237, 0.15) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(26, 98, 237, 0.15) 1px, transparent 1px);
+    background-size: 60px 60px;
+    animation: gridMove 25s linear infinite;
+}
+
+.chess-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+        linear-gradient(45deg, rgba(26, 98, 237, 0.05) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(26, 98, 237, 0.05) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(26, 98, 237, 0.05) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(26, 98, 237, 0.05) 75%);
+    background-size: 40px 40px;
+    background-position:
+        0 0,
+        0 20px,
+        20px -20px,
+        -20px 0px;
+    animation: chessMove 30s linear infinite;
+}
+
+.particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.particle {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: #1a62ed;
+    border-radius: 50%;
+    animation: float 8s ease-in-out infinite;
+    box-shadow: 0 0 15px #1a62ed;
+}
+
+.particle:nth-child(2n) {
+    background: #666666;
+    box-shadow: 0 0 15px #666666;
+    animation-delay: -2s;
+}
+
+.particle:nth-child(3n) {
+    background: #999999;
+    box-shadow: 0 0 10px #999999;
+    animation-delay: -4s;
+    width: 2px;
+    height: 2px;
+}
+
+.content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    color: white;
+}
+
+.main-title {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #b0b0b0;
+    letter-spacing: 3px;
+    animation: fadeInUp 2s ease-out;
+    margin-bottom: 20px;
+}
+
+.tech-lines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.line {
+    position: absolute;
+    background: linear-gradient(90deg, transparent, #1a62ed, transparent);
+    height: 2px;
+    animation: scanline 5s linear infinite;
+    box-shadow: 0 0 10px #1a62ed;
+}
+
+.line:nth-child(1) {
+    top: 25%;
+    animation-delay: 0s;
+}
+
+.line:nth-child(2) {
+    top: 50%;
+    animation-delay: -1.5s;
+    background: linear-gradient(90deg, transparent, #666666, transparent);
+    box-shadow: 0 0 8px #666666;
+}
+
+.line:nth-child(3) {
+    top: 75%;
+    animation-delay: -3s;
+}
+
+.strategic-elements {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.4;
+}
+
+.chess-square {
+    width: 20px;
+    height: 20px;
+    background: #1a62ed;
+    margin: 5px;
+    animation: strategicPulse 2s ease-in-out infinite;
+    box-shadow: 0 0 10px #1a62ed;
+}
+
+.chess-square:nth-child(2n) {
+    background: #666666;
+    box-shadow: 0 0 8px #666666;
+    animation-delay: -0.5s;
+}
+
+.chess-square:nth-child(3n) {
+    animation-delay: -1s;
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+@keyframes gridMove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(60px, 60px);
+    }
+}
+
+@keyframes chessMove {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(40px);
+    }
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0px) translateX(0px);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-30px) translateX(15px);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scanline {
+    0% {
+        transform: translateX(-100%);
+        width: 0%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        transform: translateX(100%);
+        width: 0%;
+    }
+}
+
+@keyframes strategicPulse {
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.4;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+    }
+    .strategic-elements {
+        right: 3%;
+    }
+}
