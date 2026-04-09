@@ -60,7 +60,6 @@
 			var $nav_a = $nav.find('a');
 
 			$nav_a
-				.addClass('scrolly')
 				.on('click', function() {
 
 					var $this = $(this);
@@ -81,8 +80,16 @@
 				.each(function() {
 
 					var	$this = $(this),
-						id = $this.attr('href'),
-						$section = $(id);
+						id = $this.attr('href');
+
+					// External link? Bail.
+						if (id.charAt(0) != '#')
+							return;
+
+					// Add scrolly class to internal links only
+						$this.addClass('scrolly');
+
+					var $section = $(id);
 
 					// No section for this link? Bail.
 						if ($section.length < 1)

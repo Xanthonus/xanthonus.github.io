@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xanthonus Blog</title>
+    <link>https://www.xanthonus.com/blog/</link>
+    <description>Thoughts on security research, program analysis, and leadership by Kristopher Willis</description>
+    <language>en-us</language>
+    <managingEditor>blog@xanthonus.com (Kristopher Willis)</managingEditor>
+    <webMaster>blog@xanthonus.com (Kristopher Willis)</webMaster>
+    <atom:link href="https://www.xanthonus.com/blog/feed.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>The Future of Automated Program Analysis</title>
+      <link>https://www.xanthonus.com/blog/#automated-program-analysis-future</link>
+      <guid isPermaLink="true">https://www.xanthonus.com/blog/#automated-program-analysis-future</guid>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <description>Exploring cutting-edge approaches in automated program analysis and how they&apos;re shaping the future of software security.</description>
+      <category>program-analysis</category>
+      <category>security</category>
+      <category>research</category>
+    </item>
+
+  </channel>
+</rss>
