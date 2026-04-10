@@ -2,6 +2,12 @@
 
 ## What Changes Have I Made?
 
+Ive made a lot of smaller changes to the original design. Here is a highlight:
+
+* Added animated banner using chess theme
+* Completely overhauled color theme
+* Implimented my own blog and added RSS sub
+
 ## Original README from HTLM5UP
 
 Read Only by HTML5 UP
